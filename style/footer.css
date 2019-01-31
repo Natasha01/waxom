@@ -1,0 +1,65 @@
+/* FOOTER */
+
+footer {
+    background: rgb(25, 25, 25);
+}
+
+footer .row {
+    padding-bottom: 70px;
+}
+
+footer .navbar-brand {
+    margin-top: 75px;
+}
+
+footer .col-md-3:first-child p {
+    margin: 25px 0;
+}
+
+footer p {
+    margin-bottom: 0;
+    font: 14px 'Montserrat-Light';
+    color: rgb(100, 100, 100);
+}
+
+footer .read-more {
+    font: 14px 'Montserrat-Regular';
+    color: white;
+}
+
+footer h4 {
+    margin: 100px 0 30px;
+    font: 24px 'Raleway-Bold';
+    color: white;
+}
+
+footer time {
+    font: 12px 'Montserrat-Light';
+    color: rgb(87, 87, 87);
+}
+
+footer hr {
+    margin: 20px 0;
+    background-color: rgb(37,37,37);
+    width: 100%;
+    height: 1px;
+}
+
+footer .post:nth-child(3) time{
+    color: white;
+}
+
+footer .post:nth-child(3) p{
+    color: rgb(199, 178, 153);
+}
+
+.hashtag {
+    color: rgb(1,184,234);
+}
+
+.widgets img{
+    margin-bottom: 10px;
+    width: 130px;
+    height: 100px;
+    object-fit: cover;
+}

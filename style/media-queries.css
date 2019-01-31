@@ -1,0 +1,61 @@
+/* MEDIA */
+
+@media screen and (max-width: 992px) {
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .browsers {
+        height: 300px;
+    }
+
+    .video-presentation h2 {
+        font-size: 25px;
+    }
+
+    .video-presentation p {
+        font-size: 14px;
+    }
+
+    .play-video {
+        margin: 15px auto;
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+    }
+
+    .excellent-for-mobile-devices {
+        background: none;
+        height: 450px;
+    }
+
+    .excellent-for-mobile-devices .text {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .counter p:first-child {
+        font-size: 36px;
+    }
+
+    .video-presentation h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .video-presentation p {
+        display: none;
+    }
+
+    .excellent-for-mobile-devices {
+        height: 700px;
+    }
+
+}

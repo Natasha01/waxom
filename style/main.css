@@ -1,0 +1,504 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px 'Montserrat-Light';
+    color: rgb(140, 140, 140);
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1 {
+    font: 52px 'Raleway-ExtraBold';
+}
+
+h2 {
+    font: 36px 'Raleway-Medium';
+}
+
+h3 {
+    color: rgb(85,85,85);
+    font: 30px 'Raleway-SemiBold';
+}
+
+h4 {
+    color: #555555;
+    font: 22px 'Raleway-SemiBold';
+    margin-bottom: 15px;
+}
+
+h5 {
+    font: 20px 'Raleway-Medium';
+    color: rgb(199,178,153);
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.on-dark-picture {
+    color: white;
+}
+
+.container {
+    max-width: 1230px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.hide {
+    display: none!important;
+}
+
+/* SERVICES */
+
+.services {
+    padding-top: 80px;
+    min-height: 375px;
+}
+
+.service {
+    padding-top: 70px;
+}
+
+.service:nth-child(1) {
+    background: url(../images/service1.png) top center no-repeat;
+}
+
+.service:nth-child(2) {
+    background: url(../images/service2.png) top center no-repeat;
+}
+
+.service:nth-child(3) {
+    background: url(../images/service3.png) top center no-repeat;
+}
+
+.service:nth-child(4) {
+    background: url(../images/service4.png) top center no-repeat;
+}
+
+.services p {
+    font-size: 14px;
+}
+
+hr {
+    margin: 30px auto;
+    border: none;
+    width: 70;
+    height: 3;
+    background-color: #F1EEE9;
+}
+
+.choosed h4{
+    color: #C7B299;
+}
+
+.choosed hr {
+    background-color: #C7B299;
+    color: #C7B299;
+}
+
+/* WAXOM */
+
+.waxom {
+    background-color: rgb(251,250,248);
+}
+
+.text {
+    margin-top: 70px;
+}
+
+.waxom p, .latest-projects p {
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.browsers {
+    height: 480px;
+    position: relative;
+}
+
+.browsers>* {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.browsers .left {
+    background-image: url(../images/browser-left.png);
+    height: 85%;
+    background-position: left bottom;
+}
+
+.browsers .right {
+    background-image: url(../images/browser-right.png);
+    height: 85%;
+    background-position: right bottom;
+}
+
+.browsers .center {
+    background-image: url(../images/browser-center.png);
+    height: 100%;
+    background-position: center bottom;
+}
+
+/* TEXT-BOXES */
+
+.text-boxes {
+    background-color: rgb(65,44,35);
+}
+
+.text-boxes .row {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.text-boxes .row>* {
+    margin: 0 30px;
+}
+
+.text-boxes p:first-child {
+    font: 28px 'Raleway-Regular';
+}
+
+.text-boxes a {
+    color: rgb(199,178,153);
+}
+
+.text-boxes a:hover {
+    text-decoration: underline;
+}
+
+.text-boxes p:last-child {
+    color: rgb(97,88,85);
+}
+
+/* LATEST PROJECTS */
+
+.latest-projects {
+    min-height: 1160px;
+    padding: 70px 0 80px;
+}
+
+.latest-projects .row {
+    padding: 0 15px;
+}
+
+.categories {
+    margin-top: 20px;
+}
+
+.categories button {
+    margin: 10px;
+    padding: 10px 17px;
+    min-width: 70px;
+    font: 14px 'Montserrat-Light';
+    background-color: white;
+    border: 1px solid rgb(235,235,235);
+    border-radius: 3px;
+}
+
+.categories button.choosed {
+    color: white;
+    background-color: rgb(153,134,117);
+}
+
+article {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+article img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.latest-projects p {
+    margin: 0;
+}
+
+.latest-projects article p {
+    color: rgb(209,209,209);
+    line-height: 20px;
+}
+
+.latest-projects article div {
+    padding: 25px;
+    background: rgb(251,250,248);
+    position: relative;
+}
+
+.latest-projects article div::before {
+    content: '';
+    border: 15px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid rgb(251,250,248);
+    position: absolute;
+    left: 5%;
+    top: -20px;
+    width: 0;
+    height: 0;
+}
+
+.latest-projects .btn {
+    margin-top: 40px;
+}
+
+/* PLAY VIDEO */
+
+.video-presentation {
+    height: 37vw;
+    background-image: url(../images/video_background.png);
+    background-position-x: center;
+    background-size: cover;
+}
+
+.play-video {
+    margin: 35px auto;
+    background: url(../images/icon-play.png) no-repeat center, rgba(0,0,0,.6);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.video-presentation h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+time {
+    display: block;
+    font: 14px 'Montserrat-Regular';
+    color: rgb(199,178,153);
+}
+
+/* EXCELLENT FOR MOBILE DEVICES*/
+
+.excellent-for-mobile-devices {
+    height: 700px;
+    background: url(../images/iPhone.png) no-repeat left bottom;
+}
+
+.excellent-for-mobile-devices > div {
+    height: 100%;
+    width: 100%;
+}
+
+.excellent-for-mobile-devices h3 {
+    margin-bottom: 25px;
+}
+
+.excellent-for-mobile-devices p {
+    line-height: 30px;
+}
+
+.excellent-for-mobile-devices ul {
+    margin-left: 50px;
+}
+
+.excellent-for-mobile-devices li {
+    list-style: none;
+    margin-top: 12px;
+    padding-left: 50px;
+    background: url(../images/liArrow.png) no-repeat;
+    line-height: 21px;
+}
+
+/* COUNERS */
+
+.counters {
+    min-height: 300px;
+    background: rgb(59, 41, 33);
+    font-size: 14px;
+    color: rgb(199, 178, 153);
+    text-transform: uppercase;
+}
+
+.counter {
+    margin-top: 60px;
+}
+
+.counter:nth-child(1) {
+    background: url(../images/counters-icon-1.png) no-repeat center top;
+}
+
+.counter:nth-child(2) {
+    background: url(../images/counters-icon-2.png) no-repeat center top;
+}
+
+.counter:nth-child(3) {
+    background: url(../images/counters-icon-3.png) no-repeat center top;
+}
+
+.counter:nth-child(4) {
+    background: url(../images/counters-icon-4.png) no-repeat center top;
+}
+
+.counter:nth-child(5) {
+    background: url(../images/counters-icon-5.png) no-repeat center top;
+}
+
+.counter p:first-child {
+    margin: 70px auto 10px;
+    font: 48px 'Montserrat-ExtraLight';
+    color: white;
+}
+
+.counter hr {
+    width: 30px;
+    margin-bottom: 0;
+}
+
+/* RECENT POSTS */
+
+.recent-posts h3 {
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+.recent-posts .title p {
+    line-height: 30px;
+}
+
+.recent-posts .row:nth-child(2)>div {
+    padding: 0 15px;
+}
+
+.recent-posts .post {
+    padding: 0;
+    margin-bottom: 30px;
+    border: 1px solid rgb(248, 248, 248);
+}
+
+.post img {
+    height: 220px;
+    position: relative;
+    z-index: -1;
+}
+
+.post.choosed .for-shadow {
+    background: rgba(0,0,0,.6);  
+}
+
+.date {
+    position: absolute;
+    top: 50px;
+    left: 35px;
+    color: white;
+}
+
+.day {
+    padding: 3px 11px;
+    background: rgb(54, 54, 54);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font: 24px 'Montserrat-Light';
+}
+
+.month {
+    padding: 6px;
+    text-align: center;
+    background: rgb(37, 37, 37);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font: 12px 'Roboto-Regular';
+}
+
+.post.choosed .day {
+    background: rgb(199, 178, 153);
+}
+
+.post.choosed .month {
+    background: rgb(164, 141, 114);
+}
+
+.recent-posts .post>div:last-child {
+    padding: 30px;
+}
+
+.post.choosed>:last-child {
+    background: rgb(54, 47, 45);
+}
+
+.post h5 {
+    color: rgb(85, 85, 85);
+}
+
+.post.choosed h5 {
+    color: rgb(199, 178, 153);
+}
+
+.post.choosed p {
+    color: white;
+}
+
+.read-more {
+    color: rgb(199, 178, 153);
+}
+
+.read-more::after {
+    margin: -1px 9px;
+    content: '';
+    border: 5px solid transparent;
+    border-left: 5px solid rgb(199, 178, 153);
+    display: inline-block;
+    width: 0;
+    height: 0;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+    color: rgb(153, 134, 117);
+}
+
+.recent-posts .arrows>* {
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 50%;
+}
+
+.recent-posts i {
+    margin: 4px;
+    width: 22px;
+    height: 22px;
+    color: rgb(212, 212, 212);
+    font-size: 12px;
+}
+
+.recent-posts i:hover {
+    border: 2px solid rgb(202, 182, 159);
+}
+
+.recent-posts i:hover {
+    color: rgb(202, 182, 159);
+}
+
+.recent-posts>:last-child  {
+    margin-bottom: 75px;
+}
+
+/* PARTNERS */
+
+.partners {
+    background: url(../images/partners_background.png) right center;
+}
+
+.partners .row {
+    padding: 80px 0;
+}
+
+.partners .logo {
+    margin: 40px;
+}

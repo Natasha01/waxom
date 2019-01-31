@@ -1,0 +1,39 @@
+/* HEADER */
+
+header {
+    padding-top: 30px;
+}
+
+.navbar-brand, .navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar .nav .active .nav-link{
+    color: #C7B299;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 14px;
+}
+
+.navbar-brand {
+    font: 34px 'Raleway-Regular';
+}
+
+.nav-item:nth-last-child(-n+2) .nav-link {
+    margin-bottom: 7px;
+    height: 24px;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+}
+
+.nav-item:nth-last-child(1) .nav-link {
+    margin-left: 25px;
+    width: 24px;
+    background-position-x: -46px;
+}
+
+.nav-item:nth-last-child(2) .nav-link {
+    margin-left: 35px;
+    width: 18px;
+}
